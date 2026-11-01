@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171717">
+  <meta name="description" content="SR Brandy Store — Shirt Pant Combo ₹999 में।">
+  <title>SR Brandy Store | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="announcement">
+    FESTIVE STYLE DROP · SHIRT + PANT COMBO ₹999
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">SR</span>
+      <span>
+        SR <b>BRANDY STORE</b>
+        <small>STYLE THAT SPEAKS</small>
+      </span>
+    </a>
+
+    <form id="searchForm" class="search">
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="Search shirt pant combo..."
+        aria-label="Search"
+      >
+      <button>Search</button>
+    </form>
+
+    <div class="head-actions">
+      <a class="plain-btn" href="account.html">
+        👤 <span>Account</span>
+      </a>
+      <a class="cart-btn" href="cart.html">
+        🛒 Cart <span data-cart-count>0</span>
+      </a>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <a class="active" href="index.html">Home</a>
+    <a href="products.html">All Products</a>
+    <a href="wishlist.html">♡ Wishlist</a>
+    <a href="my-orders.html">My Orders</a>
+    <a href="account.html">Login / Profile</a>
+    <a href="support.html">Help & Support</a>
+  </nav>
+
+  <main class="container">
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SR BRANDY STORE · NEW COLLECTION</p>
+
+        <h1>
+          Look Sharp.<br>
+          <span>Feel Confident.</span>
+        </h1>
+
+        <p>
+          आपका नया पसंदीदा लुक — Shirt + Pant Combo सिर्फ ₹999 में।
+          रंग चुनें, साइज़ चुनें और अपना ऑर्डर WhatsApp पर भेजें।
+        </p>
+
+        <a class="btn" href="products.html">
+          Shop the Combo <span>→</span>
+        </a>
+
+        <div class="hero-points">
+          <span>✓ आसान WhatsApp ऑर्डर</span>
+          <span>✓ अलग-अलग रंग</span>
+          <span>✓ Size options</span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <img
+          src="images/combo-white.jpg"
+          alt="White shirt and jeans combo"
+        >
+      </div>
+
+      <div class="sale-sticker">
+        SPECIAL
+        <strong>₹999</strong>
+        <small>SHIRT + PANT</small>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div>
+        <span>🛍️</span>
+        <p>
+          <b>Easy Ordering</b>
+          <small>WhatsApp से ऑर्डर करें</small>
+        </p>
+      </div>
+
+      <div>
+        <span>👔</span>
+        <p>
+          <b>Smart Style</b>
+          <small>शर्ट + पैंट कॉम्बो</small>
+        </p>
+      </div>
+
+      <div>
+        <span>📏</span>
+        <p>
+          <b>Size Options</b>
+          <small>अपना साइज़ चुनें</small>
+        </p>
+      </div>
+
+      <div>
+        <span>💬</span>
+        <p>
+          <b>Customer Support</b>
+          <small>हम मदद के लिए हैं</small>
+        </p>
+      </div>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">THE COMBO EDIT</p>
+        <h2>Shop the Shirt Pant Combo</h2>
+        <p>चार रंगों में से अपना पसंदीदा चुनें। हर कॉम्बो ₹999 का है।</p>
+      </div>
+
+      <a class="btn btn-outline" href="products.html">
+        View All →
+      </a>
+    </section>
+
+    <div id="productGrid" class="product-grid"></div>
+
+    <section class="info-panel">
+      <div>
+        <p class="eyebrow">NEED A HAND?</p>
+        <h2>हम आपकी मदद के लिए हैं</h2>
+        <p>
+          ऑर्डर या वेबसाइट में कोई दिक्कत हो तो हमारी सपोर्ट टीम से
+          WhatsApp पर संपर्क करें।
+        </p>
+      </div>
+
+      <a
+        class="btn"
+        id="supportLink"
+        href="#"
+        target="_blank"
+        rel="noopener"
+      >
+        WhatsApp Help ↗
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">SR</span>
+      <span>
+        SR <b>BRANDY STORE</b>
+        <small>STYLE THAT SPEAKS</small>
+      </span>
+    </a>
+
+    <p>© <span id="year"></span> SR Brandy Store.</p>
+    <p class="foot-note">
+      ऑर्डर भेजने से पहले WhatsApp में मैसेज जाँचें।
+    </p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
